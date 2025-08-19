@@ -5,11 +5,9 @@ program queue_exercises();
 int unsigned queue[$];
 initial begin
 queue = '{1,2,3,4};
-for(int i =0,int j = $size(queue)-1;i<j;i++,j--)begin
-automatic int t = queue[i];
-queue[i] = queue[j];
-  queue[j] = t;
-end
+  queue.reverse();
 $display("Reversed queue : %p",queue);
 end
 endprogram 
+/* Output:
+Reversed queue : '{4, 3, 2, 1}*/
