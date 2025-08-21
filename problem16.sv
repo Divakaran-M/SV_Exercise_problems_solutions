@@ -7,10 +7,9 @@ int unsigned delete;
 initial begin
 queue = '{201, 202, 203, 202, 204};
 delete = 202;
-foreach(queue[i])begin
-if(delete == queue[i])begin
-queue.delete(i);
-end
+for (int i = queue.size()-1; i >= 0; i--) begin
+  if (queue[i] == delete)
+    queue.delete(i);
 end
 $display("Updated Queue : %p",queue);
 end
