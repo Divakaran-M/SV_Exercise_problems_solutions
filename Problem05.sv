@@ -2,7 +2,7 @@
 Q: Find number of even elements in the array */
 
 program even();
-  int unsigned array[];
+  int unsigned array[19];
   int unsigned queue[$];
   initial begin
     array ='{101,102,103,104,105,106,107,108,109,110,202,203,204,205,206,305,306,307,308};
@@ -10,3 +10,5 @@ program even();
     $display("Even count : %0d",queue.size());
   end
 endprogram
+/* Output:
+Even count : 10*/
