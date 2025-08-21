@@ -11,3 +11,6 @@ initial begin
 end
 end
 endprogram 
+/*Humidity Calibration: 7 mV
+Pressure Calibration: -2 mV
+Temp Calibration: 15 mV*/
