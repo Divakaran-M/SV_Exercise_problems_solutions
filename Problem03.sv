@@ -22,3 +22,5 @@ program max();
     $display("%0d found at Subsystem Index %0d",temp,index_queue[0]);
   end
 endprogram
+/* Output:
+10 found at Subsystem Index 8*/
