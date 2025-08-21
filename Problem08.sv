@@ -3,7 +3,7 @@ Q: Sum only those values that are at even indices and above a threshold. */
 
 program sum();
     initial begin
-  int unsigned array[];
+      int unsigned array[12];
 	int unsigned total;
     array = '{90,50,110,30,130,90,140,70,200,10,255,60} ;
       for(int i=0;i<$size(array);i++)begin
@@ -14,3 +14,5 @@ program sum();
   $display("Sum of Even indices greater than 100 = %0d",total);
   end
 endprogram
+/* Output:
+Sum of Even indices greater than 100 = 835*/
