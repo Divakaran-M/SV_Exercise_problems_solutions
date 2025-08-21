@@ -11,3 +11,7 @@ initial begin
 end
 end
 endprogram 
+/* Output:
+AA:BB:CC:DD:EE:01 => Port  : 1 
+AA:BB:CC:DD:EE:02 => Port  : 5 
+AA:BB:CC:DD:EE:03 => Port  : 3 */
