@@ -16,3 +16,5 @@ $display("IP %s Found : False",ip);
 end
 end
 endprogram 
+/*Output:
+IP 192.168.1.10 Found : TRUE*/
