@@ -16,3 +16,9 @@ foreach (assoc_arr[idx]) begin
 end
 end
 endprogram 
+/*Output:
+Before deletion : 1 => Active 
+Before deletion : 2 => Active 
+Before deletion : 3 => Idle 
+After deletion : 1 => Active 
+After deletion : 3 => Idle */
