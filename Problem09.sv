@@ -1,3 +1,5 @@
+/* Problem : 9
+Q : Find the most repeated number in the array with count, if ties pick the smallest number*/
 program init();
   int unsigned assoc[int];
   int arr[10];
@@ -16,12 +18,12 @@ initial begin
     end 
   end
   
-  foreach(assoc[i])begin
-    if(assoc[i]>high)begin
-      high = assoc[i];
-      num = i;
-    end
-  end
+  foreach (assoc[i]) begin
+if ((assoc[i] > high) || (assoc[i] == high && i <num)) begin
+high = assoc[i];
+num = i;
+end
+end
 
   $display("Most Frequent Mode: %0d (Count = %0d)",num,high);
  
