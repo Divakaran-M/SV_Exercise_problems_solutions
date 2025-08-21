@@ -10,3 +10,5 @@ queue = '{120, 80, 200, 150, 50};
   $display("Sum of elements in the Queue = %0d",total);
 end
 endprogram 
+/* Output:
+Sum of elements in the Queue = 600*/ 
