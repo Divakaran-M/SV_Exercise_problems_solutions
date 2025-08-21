@@ -14,3 +14,5 @@ end
 $display("Maximum number is : %0d",max);
 end
 endprogram 
+/* Output:
+Maximum number is : 50*/
