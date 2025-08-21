@@ -1,6 +1,6 @@
 program init();
   int unsigned assoc[int];
-  int arr[];
+  int arr[10];
   int high=0;
   int num;
 initial begin
