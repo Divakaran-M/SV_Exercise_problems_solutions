@@ -15,3 +15,5 @@ end
 $display("Updated Queue : %p",queue);
 end
 endprogram 
+/* Output:
+Updated Queue : '{201, 203, 204}*/
