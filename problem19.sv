@@ -13,3 +13,6 @@ initial begin
   $display("Queue 2 :%p", queue2);
 end
 endprogram 
+/* Output:
+Queue 1 : '{11, 12, 13}
+Queue 2 :'{11, 12, 13}*/
