@@ -12,3 +12,6 @@ $display(" Before :%p",assoc_arr);
   $display("After : %p",assoc_arr);
 end
 endprogram 
+/*Output:
+Before :'{"VLAN 10":'{101, 102}, "VLAN 20":'{201}}
+After : '{"VLAN 10":'{101, 102, 103}, "VLAN 20":'{201, 202}}*/
