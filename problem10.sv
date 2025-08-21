@@ -16,3 +16,7 @@ program restore_registers;
     $display("Restored   = %p", registers);
   end
 endprogram
+/* Output:
+Original   = '{5, 7, 9, 11, 13}
+After Modification = '{0, 0, 0, 0, 0}
+Restored   = '{5, 7, 9, 11, 13}*/
