@@ -11,3 +11,6 @@ assoc_arr["Core0"] = 75;
 $display("Core0 value updated to : %0d",assoc_arr["Core0"]);
 end
 endprogram 
+/*Output:
+'{"Core0":70, "Core1":65}
+Core0 value updated to : 75*/
