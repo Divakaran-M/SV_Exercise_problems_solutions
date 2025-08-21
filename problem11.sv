@@ -13,3 +13,8 @@ queue.pop_front();
 $display("Queue after Dequeue: %p",queue);
 end
 endprogram
+/* Output:
+After Enqueue 5 : '{5}
+After Enqueue 10 : '{5, 10}
+Dequeued Packet :  5 
+Queue after Dequeue: '{10}*/
