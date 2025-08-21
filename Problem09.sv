@@ -28,3 +28,5 @@ initial begin
   
 end
   endprogram
+/* Output:
+Most Frequent Mode: 3 (Count = 4)*/
