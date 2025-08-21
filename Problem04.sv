@@ -23,3 +23,5 @@ program sorted_array();
       $display("Sorted:FALSE");
   end
 endprogram
+/* Output:
+ Sorted:TRUE*/
