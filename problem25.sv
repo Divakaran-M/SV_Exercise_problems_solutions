@@ -13,10 +13,9 @@ assoc_arr["user4"] = "Admin";
 if(assoc_arr.exists(user))begin
 total += 1;
 end
-else begin
-$display("User not exists");
-end
 end 
 $display("Total Registered Users : %0d",total);
 end
 endprogram 
+/* Output:
+Total Registered Users : 4*/
