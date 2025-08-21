@@ -1,3 +1,4 @@
+
 /* Problem 2
 Q : Reversal of array using for loop */
 
@@ -14,3 +15,5 @@ initial begin
   
 end
 endprogram
+/* Output:
+Reversed : '{107, 106, 105, 104, 103, 102, 101, 100}*/
