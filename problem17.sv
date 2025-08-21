@@ -10,3 +10,7 @@ $display("Packet : %0d",queue[i]);
 end
 end
 endprogram 
+/* Output:
+Packet : 501
+Packet : 502
+Packet : 503*/
