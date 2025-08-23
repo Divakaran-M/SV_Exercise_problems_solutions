@@ -4,14 +4,17 @@ Q : Delete particular element in the queue(unknown index)*/
 program queue_max();
 int unsigned queue[$];
 int unsigned delete;
+int unsigned queue1[$];
 initial begin
 queue = '{201, 202, 203, 202, 204};
 delete = 202;
-for (int i = queue.size()-1; i >= 0; i--) begin
-  if (queue[i] == delete)
-    queue.delete(i);
+for(idx = 0; idx < queue.size(); idx++) begin
+if(queue[idx] == delete) begin
+queue.delete(idx);
+idx--;
 end
-$display("Updated Queue : %p",queue);
+end
+$display("Updated Queue : %p",queue1);
 end
 endprogram 
 /* Output:
