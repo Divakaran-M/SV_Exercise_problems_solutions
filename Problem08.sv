@@ -16,3 +16,4 @@ program sum();
 endprogram
 /* Output:
 Sum of Even indices greater than 100 = 835*/
+/* Note : But in pdf the output is 635 which is wrong, even indices greater than 100 --> 110+130+140+200+255 = 835*/
