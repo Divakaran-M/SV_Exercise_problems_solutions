@@ -5,19 +5,26 @@ program assoc_arr;
   int assoc [string];
   int max ;
   int min ;
+ string first;
 string max_key;
 string min_key;
   initial begin
+  max = 0;
     assoc["ZoneA"] = 25; 
     assoc["ZoneB"] = 30;
     assoc["ZoneC"]=22;
-    max = assoc.max()[0];/* built in function assoc.max() 
-    returns array containing maximum values,
-    but we want only one maximum integer,
-    so take 0th element from the array
-    by indicating assoc.max()[0] and 
-    store it in a int variable*/
-    min = assoc.min()[0];
+if(assoc.first(first)) begin
+   min = assoc[first];
+end
+    foreach(assoc[i]) begin
+     if(assoc[i] >max)begin
+          max = assoc[i];
+      end 
+    if(assoc[i] < min) begin
+         min = assoc[i];
+end 
+     end
+    
     foreach(assoc[i])begin
       if (assoc[i] == max ) max_key = i;
       if(assoc[i] == min) min_key = i;
