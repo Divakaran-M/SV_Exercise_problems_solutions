@@ -9,12 +9,12 @@ program assoc_arr;
 string max_key;
 string min_key;
   initial begin
-  max = 0;
     assoc["ZoneA"] = 25; 
     assoc["ZoneB"] = 30;
     assoc["ZoneC"]=22;
 if(assoc.first(first)) begin
-   min = assoc[first];
+min = assoc[first];
+max = assoc[first];
 end
     foreach(assoc[i]) begin
      if(assoc[i] >max)begin
